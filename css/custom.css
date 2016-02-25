@@ -2,3 +2,44 @@
   box-sizing: border-box; }
 
 /*insert custom css below*/
+
+body {
+  padding: 20px 60px;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+  background-color: #ccc;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+h1, h2 {
+  text-decoration: none;
+}
+
+h1 small {
+  color: #333;
+  font-size: .6em;
+}
+
+.box {
+  background-color: #ccc;
+  border: 1px solid #999;
+  width: 400px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.box a.read-more {
+  text-decoration: underline;
+}
